@@ -1,0 +1,41 @@
+﻿venv311/
+__pycache__/
+*.pyc
+.env
+*.log
+.idea/
+.ipynb_checkpoints/
+
+# Datasets - too large, not needed in repo
+dataset_builder/
+dataset_deepfakevoice/
+dataset_new/
+dataset_old/
+FakeAVCeleb_v1.2/
+final_dataset/
+final_dataset_combined/
+final_dataset_v2/
+final_dataset_v4/
+final_dataset_v5/
+runtime_spectrograms/
+spectrograms/
+test_spectrograms/
+tts_mic_fake/
+uploads/
+
+# ffmpeg binary build - not needed in repo
+ffmpeg-2026-06-10-git-b29bdd3715-essentials_build/
+
+# Old/unused model versions - keeping only mfcc_model_v6.pkl (production model)
+mfcc_model.pkl
+mfcc_model_v5.pkl
+voice_cnn_model.h5
+voice_cnn_numpy_model.h5
+voice_mobilenet_model.keras
+mobilenet_class_indices.json
+cnn_class_indices.json
+
+# Large test/response artifacts
+response.json
+test_response.json
+test.mp3
